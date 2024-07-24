@@ -1,0 +1,72 @@
+
+body {
+    background-color: #ded9d9;
+}
+
+h1 {
+    text-align: center;
+    font-family:Arial, sans-serif;
+    font-size: 32px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-family:Arial, sans-serif;
+}
+
+p {
+   font-size: 25px;
+   font-family:Arial, sans-serif;
+}
+
+img{
+  width:100%;
+}
+
+
+p{
+  text-align:left;
+}
+
+div img{
+    width:150px;
+    height: 150px;
+    display:inline;
+    margin:auto;
+}
+
+div{
+  display: inline;
+  width: 24%;
+  margin: 5px;
+  padding: 2px;
+}
+
+@media screen and (min-width: 772px){
+
+div { 
+  width: 45vw;
+  max-height: 30vh;
+  display: inline-block;
+div img{
+  display: inline-block
+}
+}
+  
+
+@media screen and (min-width: 998px){
+  div{
+    width: 30vw;
+    display: inline-block;
+  }
+  
+  div img{
+   width: 30vh;
+    
+    display: inline-block;
+  }
+
+}
+
+
